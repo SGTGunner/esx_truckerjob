@@ -59,6 +59,7 @@ function MenuCloakRoom()
 		'default', GetCurrentResourceName(), 'cloakroom',
 		{
 			title    = _U('cloakroom'),
+			align    = 'bottom-right',
 			elements = {
 				{label = _U('job_wear'), value = 'job_wear'},
 				{label = _U('citizen_wear'), value = 'citizen_wear'}
@@ -103,6 +104,7 @@ function MenuVehicleSpawner()
 		'default', GetCurrentResourceName(), 'vehiclespawner',
 		{
 			title    = _U('vehiclespawner'),
+			align    = 'bottom-right',
 			elements = elements
 		},
 		function(data, menu)
